@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     QMainWindow window;
 
-
+/*
     std::vector<float> x_coord;
     std::vector<float> y_coord;
 
@@ -57,8 +57,9 @@ int main(int argc, char *argv[])
     QChartView *chartView = new QChartView(chart);
     chartView->setRenderHint(QPainter::Antialiasing);
 
-    window.setCentralWidget(chartView);
-    window.resize(1000, 1000);
+   // window.setCentralWidget(chartView);
+   // window.resize(1000, 1000);
+   */
     window.show();
 
     return a.exec();
